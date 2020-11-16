@@ -1,4 +1,5 @@
-import { ApolloServer, PubSub } from "apollo-server";
+import pkg from 'apollo-server';
+const { ApolloServer, PubSub } = pkg;
 import mongoose from "mongoose";
 
 import typeDefs from "./graphql/typeDefs.js";
