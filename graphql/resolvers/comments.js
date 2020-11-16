@@ -1,4 +1,6 @@
-import { AuthenticationError, UserInputError } from "apollo-server";
+import pkg from 'apollo-server';
+const { UserInputError } = pkg;
+const { AuthenticationError } = pkg;
 import Post from "../../models/Post.js";
 import { checkAuth } from "../../util/check-auth.js";
 

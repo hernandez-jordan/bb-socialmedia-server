@@ -1,6 +1,7 @@
+import pkg from 'apollo-server';
+const { UserInputError } = pkg;
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { UserInputError } from "apollo-server";
 
 import {
   validateRegisterInput,
