@@ -1,4 +1,6 @@
-import { gql } from "apollo-server";
+import pkg from 'apollo-server';
+const { gql } = pkg;
+//import { gql } from "apollo-server";
 
 export default gql`
   type Post {
